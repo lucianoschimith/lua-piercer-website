@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?2mrica');
-  src:  url('fonts/icomoon.eot?2mrica#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?2mrica') format('truetype'),
-    url('fonts/icomoon.woff?2mrica') format('woff'),
-    url('fonts/icomoon.svg?2mrica#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?c1nlal');
+  src:  url('fonts/icomoon.eot?c1nlal#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?c1nlal') format('truetype'),
+    url('fonts/icomoon.woff?c1nlal') format('woff'),
+    url('fonts/icomoon.svg?c1nlal#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -43,6 +43,9 @@
 .icon-equalizer:before {
   content: "\e992";
 }
+.icon-clipboard:before {
+  content: "\e9b8";
+}
 .icon-list:before {
   content: "\e9ba";
 }
@@ -54,6 +57,12 @@
 }
 .icon-heart:before {
   content: "\e9da";
+}
+.icon-question:before {
+  content: "\ea09";
+}
+.icon-info:before {
+  content: "\ea0c";
 }
 .icon-cross:before {
   content: "\ea0f";
@@ -75,4 +84,7 @@
 }
 .icon-rss:before {
   content: "\ea9b";
+}
+.icon-lock:before {
+  content: "\e98f";
 }
