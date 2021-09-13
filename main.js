@@ -27,11 +27,43 @@ window.addEventListener('scroll', function() {
 })
 
 
-const swiper = new Swiper('.swiper-container', {
+/* const swiper = new Swiper('.swiper-container', {
     slidesPerView: 1, 
     pagination: {
         el: '.swiper-pagination'
     },
     mousewheel: true, 
-    keyboard: true
+    keyboard: true,
+    breakpoints: {
+        767: {
+            slidesPerView: 2,
+            setWrapperSize: true
+        }
+    }
+}) */
+
+/* const scrollReveal = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 700,
+    reset: true
 })
+
+scrollReveal.reveal(
+    `#home .text, #home .image
+    #about .image, #about .text
+    #services header, #services .card
+    #testimonials header, #testimonials .testimonials
+    #contact .text, #contact .links`,
+    {interval: 100}
+) 
+
+const backToTopButton = document.querySelector('.back-to-top')
+    window.addEventListener('scroll', function () {
+    if(window.scrollY >= 100) {
+        backToTopButton.classList.add('show')
+    } else {
+        backToTopButton.classList.remove('show')
+    }
+}) */
+
